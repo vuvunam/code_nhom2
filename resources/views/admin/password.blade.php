@@ -75,7 +75,7 @@
             <div class="card-body">
               <!-- Logo -->
               <div class="app-brand justify-content-center">
-                <a href="index" class="app-brand-link gap-2">
+                <a href="../admin/home" class="app-brand-link gap-2">
                   <span class="app-brand-logo demo">
                     <svg
                       width="25"

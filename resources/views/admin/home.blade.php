@@ -275,22 +275,22 @@
                   </a>
                 </li>
                 <li class="menu-item">
-                  <a href="ui-buttons.html" class="menu-link">
+                  <a href="ui-buttons" class="menu-link">
                     <div data-i18n="Buttons">Buttons</div>
                   </a>
                 </li>
                 <li class="menu-item">
-                  <a href="ui-carousel.html" class="menu-link">
+                  <a href="ui-carousel" class="menu-link">
                     <div data-i18n="Carousel">Carousel</div>
                   </a>
                 </li>
                 <li class="menu-item">
-                  <a href="ui-collapse.html" class="menu-link">
+                  <a href="ui-collapse" class="menu-link">
                     <div data-i18n="Collapse">Collapse</div>
                   </a>
                 </li>
                 <li class="menu-item">
-                  <a href="ui-dropdowns.html" class="menu-link">
+                  <a href="ui-dropdowns" class="menu-link">
                     <div data-i18n="Dropdowns">Dropdowns</div>
                   </a>
                 </li>
@@ -300,12 +300,12 @@
                   </a>
                 </li>
                 <li class="menu-item">
-                  <a href="ui-list-groups.html" class="menu-link">
+                  <a href="ui-list-groups" class="menu-link">
                     <div data-i18n="List Groups">List groups</div>
                   </a>
                 </li>
                 <li class="menu-item">
-                  <a href="ui-modals.html" class="menu-link">
+                  <a href="ui-modals" class="menu-link">
                     <div data-i18n="Modals">Modals</div>
                   </a>
                 </li>
