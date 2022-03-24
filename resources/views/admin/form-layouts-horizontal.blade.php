@@ -175,7 +175,7 @@
                   </a>
                 </li>
                 <li class="menu-item">
-                  <a href="layouts-blank.html" class="menu-link">
+                  <a href="layouts-blank" class="menu-link">
                     <div data-i18n="Blank">Blank</div>
                   </a>
                 </li>
@@ -192,7 +192,7 @@
               </a>
               <ul class="menu-sub">
                 <li class="menu-item">
-                  <a href="pages-account-settings-account.html" class="menu-link">
+                  <a href="pages-account-settings-account" class="menu-link">
                     <div data-i18n="Account">Account</div>
                   </a>
                 </li>
@@ -215,7 +215,7 @@
               </a>
               <ul class="menu-sub">
                 <li class="menu-item">
-                  <a href="auth-login-basic.html" class="menu-link" target="_blank">
+                  <a href="auth-login-basic" class="menu-link" target="_blank">
                     <div data-i18n="Basic">Login</div>
                   </a>
                 </li>
