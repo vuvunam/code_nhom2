@@ -76,6 +76,6 @@ Route::get('admin/error', function () {
 });
 Route::middleware(['admin'])->group(function(){
     Route::get('/admin/home', [AdminController::class, 'home'])->name('admin.home');
-    Route::get('/admin/edting', [AEditingController::class, 'editing'])->name('admin.editing');
+    //Route::get('/admin/editting{model}', [EditingController::class, 'create'])->name('listing.create');
 
 });

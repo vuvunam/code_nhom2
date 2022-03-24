@@ -27,7 +27,7 @@
       content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0"
     />
 
-    <title>Container - Layouts | Sneat - Bootstrap 5 HTML Admin Template - Pro</title>
+    <title>TRANG Thêm</title>
 
     <meta name="description" content="" />
 
@@ -140,7 +140,7 @@
           <ul class="menu-inner py-1">
             <!-- Dashboard -->
             <li class="menu-item">
-              <a href="index.html" class="menu-link">
+              <a href="../admin/home" class="menu-link">
                 <i class="menu-icon tf-icons bx bx-home-circle"></i>
                 <div data-i18n="Analytics">Dashboard</div>
               </a>
@@ -155,27 +155,27 @@
 
               <ul class="menu-sub">
                 <li class="menu-item">
-                  <a href="layouts-without-menu.html" class="menu-link">
+                  <a href="layouts-without-menu" class="menu-link">
                     <div data-i18n="Without menu">Without menu</div>
                   </a>
                 </li>
-                <li class="menu-item">
-                  <a href="layouts-without-navbar.html" class="menu-link">
+                <li class="menu-item active">
+                  <a href="layouts-without-navbar" class="menu-link">
                     <div data-i18n="Without navbar">Without navbar</div>
                   </a>
                 </li>
-                <li class="menu-item active">
-                  <a href="layouts-container.html" class="menu-link">
+                <li class="menu-item">
+                  <a href="layouts-container" class="menu-link">
                     <div data-i18n="Container">Container</div>
                   </a>
                 </li>
                 <li class="menu-item">
-                  <a href="layouts-fluid.html" class="menu-link">
+                  <a href="layouts-fluid" class="menu-link">
                     <div data-i18n="Fluid">Fluid</div>
                   </a>
                 </li>
                 <li class="menu-item">
-                  <a href="layouts-blank.html" class="menu-link">
+                  <a href="layouts-blankl" class="menu-link">
                     <div data-i18n="Blank">Blank</div>
                   </a>
                 </li>
@@ -461,153 +461,133 @@
           </ul>
         </aside>
         <!-- / Menu -->
+          
+        <style>
+.tt{
+  width: 15%;text-align: center;
 
-        <!-- Layout container -->
-        <div class="layout-page">
-          <!-- Navbar -->
-
-          <nav
-            class="layout-navbar container-xxl navbar navbar-expand-xl navbar-detached align-items-center bg-navbar-theme"
-            id="layout-navbar"
-          >
-            <div class="layout-menu-toggle navbar-nav align-items-xl-center me-3 me-xl-0 d-xl-none">
-              <a class="nav-item nav-link px-0 me-xl-4" href="javascript:void(0)">
-                <i class="bx bx-menu bx-sm"></i>
-              </a>
-            </div>
-
-            <div class="navbar-nav-right d-flex align-items-center" id="navbar-collapse">
-              <!-- Search -->
-              <div class="navbar-nav align-items-center">
-                <div class="nav-item d-flex align-items-center">
-                  <i class="bx bx-search fs-4 lh-0"></i>
-                  <input
-                    type="text"
-                    class="form-control border-0 shadow-none"
-                    placeholder="Search..."
-                    aria-label="Search..."
-                  />
-                </div>
-              </div>
-              <!-- /Search -->
-
-              <ul class="navbar-nav flex-row align-items-center ms-auto">
-                <!-- Place this tag where you want the button to render. -->
-                <li class="nav-item lh-1 me-3">
-                  <a
-                    class="github-button"
-                    href="https://github.com/themeselection/sneat-html-admin-template-free"
-                    data-icon="octicon-star"
-                    data-size="large"
-                    data-show-count="true"
-                    aria-label="Star themeselection/sneat-html-admin-template-free on GitHub"
-                    >Star</a
-                  >
-                </li>
-
-                <!-- User -->
-                <li class="nav-item navbar-dropdown dropdown-user dropdown">
-                  <a class="nav-link dropdown-toggle hide-arrow" href="javascript:void(0);" data-bs-toggle="dropdown">
-                    <div class="avatar avatar-online">
-                      <img src="../assets/img/avatars/1.png" alt class="w-px-40 h-auto rounded-circle" />
-                    </div>
-                  </a>
-                  <ul class="dropdown-menu dropdown-menu-end">
-                    <li>
-                      <a class="dropdown-item" href="#">
-                        <div class="d-flex">
-                          <div class="flex-shrink-0 me-3">
-                            <div class="avatar avatar-online">
-                              <img src="../assets/img/avatars/1.png" alt class="w-px-40 h-auto rounded-circle" />
-                            </div>
-                          </div>
-                          <div class="flex-grow-1">
-                            <span class="fw-semibold d-block">John Doe</span>
-                            <small class="text-muted">Admin</small>
-                          </div>
-                        </div>
-                      </a>
-                    </li>
-                    <li>
-                      <div class="dropdown-divider"></div>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="#">
-                        <i class="bx bx-user me-2"></i>
-                        <span class="align-middle">My Profile</span>
-                      </a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="#">
-                        <i class="bx bx-cog me-2"></i>
-                        <span class="align-middle">Settings</span>
-                      </a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="#">
-                        <span class="d-flex align-items-center align-middle">
-                          <i class="flex-shrink-0 bx bx-credit-card me-2"></i>
-                          <span class="flex-grow-1 align-middle">Billing</span>
-                          <span class="flex-shrink-0 badge badge-center rounded-pill bg-danger w-px-20 h-px-20">4</span>
-                        </span>
-                      </a>
-                    </li>
-                    <li>
-                      <div class="dropdown-divider"></div>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="auth-login-basic.html">
-                        <i class="bx bx-power-off me-2"></i>
-                        <span class="align-middle">Log Out</span>
-                      </a>
-                    </li>
-                  </ul>
-                </li>
-                <!--/ User -->
-              </ul>
-            </div>
-          </nav>
-
+display: inline-block;  
+width: 100%;  
+border-radius: 3px;  
+padding: 4px 55px 4px 15px;  
+position: relative;  
+background-color: #fff;  
+color: #fff;
+border: 1px solid #ddd;  
+-webkit-transition: all 200ms ease-in-out;  
+-moz-transition: all 200ms ease-in-out;  
+transition: all 200ms ease-in-out;
+}
+ 
+.search-box.hovered, .search-box:hover, .search-box:active {  
+border: 1px solid #aaa;
+}
+ 
+.search-box input[type=text] { 
+ border: none;  
+box-shadow: none;  
+display: inline-block;  
+padding: 0;  
+background: transparent;
+}
+ 
+.search-box input[type=text]:hover, .search-box input[type=text]:focus, .search-box input[type=text]:active {  
+box-shadow: none;
+}
+ 
+.search-box .search-btn {  
+position: absolute;  
+right: 2px;  
+top: 2px;  
+color: #fff;  
+border-radius: 3px;  
+font-size: 21px;  
+padding: 5px 10px 1px;  
+-webkit-transition: all 200ms ease-in-out;  
+-moz-transition: all 200ms ease-in-out;  
+transition: all 200ms ease-in-out;
+}
+ 
+.search-box .search-btn:hover {  
+color: #fff;  
+background-color: #8FBE00;
+}
+.phai{
+  padding-left: 10px;
+}
+</style>
           <!-- / Navbar -->
 
           <!-- Content wrapper -->
           <div class="content-wrapper">
-            <!-- Content -->
+    <div class="container-fluid">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item">
+          <a href="../admin/home">Trang chủ / </a>
+          <a href="">Thêm người dùng</a>
 
-            <div class="container-xxl flex-grow-1 container-p-y">
-              <!-- Layout Demo -->
-              <div class="layout-demo-wrapper">
-                <div class="layout-demo-placeholder">
-                  <img
-                    src="../assets/img/layouts/layout-container-light.png"
-                    class="img-fluid"
-                    alt="Layout container"
-                    data-app-light-img="layouts/layout-container-light.png"
-                    data-app-dark-img="layouts/layout-container-dark.png"
-                  />
-                </div>
-                <div class="layout-demo-info">
-                  <h4>XÓA HẾT ĐI</h4>
-                  <p>NHÓM 2<code>K20</code> IT06.</p>
-                </div>
-              </div>
-              <div class="layout-demo-info">
-                  <h4>Quay trở lại trang chủ</h4>
-                  <button class="btn btn-primary" type="button" onclick="history.back()">Go Back</button>
-                </div>
-              <!--/ Layout Demo -->
-            </div>
+        </li>
+      </ol>
+      </div>
+  <form action="" method="POST" style="margin-left: 250px;height: 500px"
+  >
+    <table style="border-collapse: collapse;border:none;width: 80%;height: 450px;margin-left: auto;margin-right: auto;border-radius: 10px;border:2pc solid #288ad6;" border="1">
+      <tr>
+        <td colspan="2" style="background-color:#288ad6;color:#fff;text-align: center;border-top-right-radius: 8px;border-top-left-radius: 8px;padding-bottom: auto;"><p style="padding-top: -2px: ;font-size:20px;">XÓA THÔNG TIN NGƯỜI DÙNG</p></td>
+      </tr>
+      <tr>
+        <td style="width:30%;text-align: center;">ID_user</td>
+        <td class="phai"><input type="text" name="id" style="width: 60%;height:30px;margin-left: 15px;"class="form-control"></td>
+        <td>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align: center; ">Họ tên</td>
+        <td class="phai"><input type="text" name="ten" style="width: 60%;height:30px;margin-left: 15px;"class="form-control"></td>
+      </tr>
+        <tr>
+          <td style="text-align: center;">Username </td>
+          <td class="phai"><input type="text" name="us" style="width: 60%;height:30px;margin-left: 15px;"class="form-control"></td>
+        </tr>
+        <tr>
+          <td style="text-align: center;">Password</td>
+         <td class="phai"><input type="text" name="ps" style="width: 60%;height:30px;margin-left: 15px;"class="form-control"></td> 
+        </tr>
+        <tr>
+          <td style="text-align: center;">QUYỀN HẠN</td>
+         <td class="phai">
+           <select name="role" id="" style="margin-left: 70px;">
+            <option value="user">admin</option>
+            <option value="admin">user</option>
+          </select>
+         </td> 
+        </tr>
+        <tr>
+          <td style="text-align: center;">SĐT</td>
+         <td class="phai"><input type="text" name="dt" style="width: 60%;height:30px;margin-left: 15px;"class="form-control"></td> 
+        </tr>
+        <tr>
+          <td style="text-align: center;">LÝ DO XÓA</td>
+          <td class="phai"><input type="text" name="mail"style="width: 60%;height:30px;margin-left: 15px;"class="form-control"></td>
+        </tr>
+        
+        <tr>
+        <td colspan="2" style="text-align: center;"><button value="Thêm" class="btn btn-danger" name="xoa" type="submit">XÓA <i class="glyphicon glyphicon-pencil"></i></button></td>
+      </tr>
+     
+       
+    </table>
+  </form>
+        <!-- Layout container -->
+     
             <!-- / Content -->
 
             <!-- Footer -->
             <footer class="content-footer footer bg-footer-theme">
               <div class="container-xxl d-flex flex-wrap justify-content-between py-2 flex-md-row flex-column">
                 <div class="mb-2 mb-md-0">
-                  ©
-                  <script>
-                    document.write(new Date().getFullYear());
-                  </script>
-                  , made with ❤️ by
+                  
+                  
                   <a href="https://themeselection.com" target="_blank" class="footer-link fw-bolder">ThemeSelection</a>
                 </div>
                 <div>
@@ -627,6 +607,7 @@
                     class="footer-link me-4"
                     >Support</a
                   >
+                  
                 </div>
               </div>
             </footer>
@@ -644,14 +625,6 @@
     </div>
     <!-- / Layout wrapper -->
 
-    <div class="buy-now">
-      <a
-        href="https://themeselection.com/products/sneat-bootstrap-html-admin-template/"
-        target="_blank"
-        class="btn btn-danger btn-buy-now"
-        >Upgrade to Pro</a
-      >
-    </div>
 
     <!-- Core JS -->
     <!-- build:js assets/vendor/js/core.js -->
