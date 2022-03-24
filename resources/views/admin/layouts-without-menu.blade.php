@@ -523,7 +523,7 @@ background-color: #8FBE00;
       <ol class="breadcrumb">
         <li class="breadcrumb-item">
           <a href="../admin/home">Trang chủ / </a>
-          <a href="">Thêm người dùng</a>
+          <a href="">Thêm người dùng </a>
 
         </li>
       </ol>
