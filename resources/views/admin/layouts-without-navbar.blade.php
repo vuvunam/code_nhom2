@@ -140,7 +140,7 @@
           <ul class="menu-inner py-1">
             <!-- Dashboard -->
             <li class="menu-item">
-              <a href="/admin/home" class="menu-link">
+              <a href="../admin/home" class="menu-link">
                 <i class="menu-icon tf-icons bx bx-home-circle"></i>
                 <div data-i18n="Analytics">Dashboard</div>
               </a>
@@ -461,47 +461,130 @@
           </ul>
         </aside>
         <!-- / Menu -->
+          
+        <style>
+.tt{
+  width: 15%;text-align: center;
 
-        <!-- Layout container -->
-        <div class="layout-page">
+display: inline-block;  
+width: 100%;  
+border-radius: 3px;  
+padding: 4px 55px 4px 15px;  
+position: relative;  
+background: #fff;  
+border: 1px solid #ddd;  
+-webkit-transition: all 200ms ease-in-out;  
+-moz-transition: all 200ms ease-in-out;  
+transition: all 200ms ease-in-out;
+}
+ 
+.search-box.hovered, .search-box:hover, .search-box:active {  
+border: 1px solid #aaa;
+}
+ 
+.search-box input[type=text] { 
+ border: none;  
+box-shadow: none;  
+display: inline-block;  
+padding: 0;  
+background: transparent;
+}
+ 
+.search-box input[type=text]:hover, .search-box input[type=text]:focus, .search-box input[type=text]:active {  
+box-shadow: none;
+}
+ 
+.search-box .search-btn {  
+position: absolute;  
+right: 2px;  
+top: 2px;  
+color: #aaa;  
+border-radius: 3px;  
+font-size: 21px;  
+padding: 5px 10px 1px;  
+-webkit-transition: all 200ms ease-in-out;  
+-moz-transition: all 200ms ease-in-out;  
+transition: all 200ms ease-in-out;
+}
+ 
+.search-box .search-btn:hover {  
+color: #fff;  
+background-color: #8FBE00;
+}
+.phai{
+  padding-left: 10px;
+}
+</style>
+          <!-- / Navbar -->
+
           <!-- Content wrapper -->
           <div class="content-wrapper">
-            <!-- Content -->
+    <div class="container-fluid">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item">
+          <a href="../admin/home">Trang chủ / </a>
+          <a href="">Thêm người dùng</a>
 
-            <div class="container-xxl flex-grow-1 container-p-y">
-              <!-- Layout Demo -->
-              <div class="layout-demo-wrapper">
-                <div class="layout-demo-placeholder">
-                  <img
-                    src="../assets/img/layouts/layout-without-navbar-light.png"
-                    class="img-fluid"
-                    alt="Layout without navbar"
-                    data-app-light-img="layouts/layout-without-navbar-light.png"
-                    data-app-dark-img="layouts/layout-without-navbar-dark.png"
-                  />
-                </div>
-                <div class="layout-demo-info">
-                  <h4>SỬA LẠI CUỘC ĐỜI NÀ</h4>
-                  <p>Layout does not contain Navbar component.</p>
-                </div>
-              </div>
-              <div class="layout-demo-info">
-                  <h4>Trở về trang chủ</h4>
-                  <button class="btn btn-primary" type="button" onclick="history.back()">Go Back</button>
-                </div>
-              <!--/ Layout Demo -->
-            </div>
+        </li>
+      </ol>
+      </div>
+  <form action="" method="POST" style="margin-left: 250px;">
+    <table style="border-collapse: collapse;border:none;width: 80%;height: 450px;margin-left: auto;margin-right: auto;border-radius: 10px;border:2pc solid #288ad6;" border="1">
+      <tr>
+        <td colspan="2" style="background-color:#288ad6;color:#fff;text-align: center;border-top-right-radius: 8px;border-top-left-radius: 8px;padding-bottom: auto;"><p style="padding-top: -2px: ;font-size:20px;">Sửa lại Quyền Người Dùng</p></td>
+      </tr>
+      <tr>
+        <td style="width:30%;text-align: center;">ID_user</td>
+        <td class="phai"><input type="text" name="id" style="width: 60%;height:30px;margin-left: 15px;"class="form-control"></td>
+        <td>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align: center; ">Họ tên</td>
+        <td class="phai"><input type="text" name="ten" style="width: 60%;height:30px;margin-left: 15px;"class="form-control"></td>
+      </tr>
+        <tr>
+          <td style="text-align: center;">Username </td>
+          <td class="phai"><input type="text" name="us" style="width: 60%;height:30px;margin-left: 15px;"class="form-control"></td>
+        </tr>
+        <tr>
+          <td style="text-align: center;">Password</td>
+         <td class="phai"><input type="text" name="ps" style="width: 60%;height:30px;margin-left: 15px;"class="form-control"></td> 
+        </tr>
+        <tr>
+          <td style="text-align: center;">QUYỀN HẠN</td>
+         <td class="phai">
+           <select name="role" id="" style="margin-left: 70px;">
+            <option value="user">admin</option>
+            <option value="admin">user</option>
+          </select>
+         </td> 
+        </tr>
+        <tr>
+          <td style="text-align: center;">SĐT</td>
+         <td class="phai"><input type="text" name="dt" style="width: 60%;height:30px;margin-left: 15px;"class="form-control"></td> 
+        </tr>
+        <tr>
+          <td style="text-align: center;">lý do sửa lại Quyền</td>
+          <td class="phai"><input type="text" name="mail"style="width: 60%;height:30px;margin-left: 15px;"class="form-control"></td>
+        </tr>
+        
+        <tr>
+        <td colspan="2" style="text-align: center;"><button value="Thêm" class="btn btn-danger" name="them" type="submit">Sửa <i class="glyphicon glyphicon-pencil"></i></button></td>
+      </tr>
+     
+       
+    </table>
+  </form>
+        <!-- Layout container -->
+     
             <!-- / Content -->
 
             <!-- Footer -->
             <footer class="content-footer footer bg-footer-theme">
               <div class="container-xxl d-flex flex-wrap justify-content-between py-2 flex-md-row flex-column">
                 <div class="mb-2 mb-md-0">
-                  ©
-                  <script>
-                    document.write(new Date().getFullYear());
-                  </script>
-                  , made with ❤️ by
+                  
                   
                   <a href="https://themeselection.com" target="_blank" class="footer-link fw-bolder">ThemeSelection</a>
                 </div>
@@ -540,14 +623,6 @@
     </div>
     <!-- / Layout wrapper -->
 
-    <div class="buy-now">
-      <a
-        href="https://themeselection.com/products/sneat-bootstrap-html-admin-template/"
-        target="_blank"
-        class="btn btn-danger btn-buy-now"
-        >Upgrade to Pro</a
-      >
-    </div>
 
     <!-- Core JS -->
     <!-- build:js assets/vendor/js/core.js -->
